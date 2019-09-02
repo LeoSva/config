@@ -15,7 +15,7 @@ public class ConfigClientApp {
         SpringApplication.run(ConfigClientApp.class, args);
     }
 	
-	@Value("${arquivo}")
+	@Value("${descricao}")
 	private String param;
 	
 	@GetMapping("/config/{usuario}")
